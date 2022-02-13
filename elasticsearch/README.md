@@ -7,6 +7,8 @@
 
 更新了LicenseVerifier和XPackBuild，用于破解证书认证。
 
+由于6.2不公布x-pack源码，需要下载es源码并切换到6.3标签进行编译。
+
 ### license.json
 
 更新证书前，使用`bin/x-pack/setup-passwords interactive`设置内置用户密码。
